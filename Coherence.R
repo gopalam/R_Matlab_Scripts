@@ -2,6 +2,13 @@ Coherence <- function(signal1,signal2,Dt) {
   
   # input signal1 , signal1, vectors to analyze for coherence.
   # Dt, sampling interval (in time units  of time, e.g 15 min sampling interval, Dt=1/96.)
+  #Frequency-dependent coherence on a pair of variables
+  # Dt= sampling interval in units of days
+  # coherence can be determined for  pairs of variables
+  # output= coherence (c) and frequency (f) vectors
+  # 
+  # written ad described in  Menke, W., and J. Menke (2009), Environmental Data Analysis with
+  # MATLAB, 288 pp., Elsevier, New York.
   
 
   
